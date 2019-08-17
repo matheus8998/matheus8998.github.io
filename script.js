@@ -35,7 +35,7 @@ let questions = [
         choiceC : "Correct",
         correct : "C"
     },{
-        question : "Quem é o criador do minecraft?",
+        question : "testando um dois tres?",
         imgSrc : "img/js.png",
         choiceA : "Notch",
         choiceB : "Not Notch",
