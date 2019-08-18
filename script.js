@@ -1,3 +1,5 @@
+
+window.onload = function () {
 // select all elements
 const start = document.getElementById("start");
 const quiz = document.getElementById("quiz");
@@ -158,3 +160,5 @@ function scoreRender(){
     scoreDiv.innerHTML = "<img src="+ img +">";
     scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
 }
+
+};
