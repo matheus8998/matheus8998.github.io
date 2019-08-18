@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Quiz</title>
-    <script type="text/javascript" src="script.js"> </script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,9 +12,9 @@
             <div id="question"></div>
             <div id="qImg"></div>
             <div id="choices">
-                <div class="choice" id="A"></div>
-                <div class="choice" id="B"></div>
-                <div class="choice" id="C"></div>
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
             </div>
             <div id="timer">
                 <div id="counter"></div>
@@ -26,6 +25,6 @@
         </div>
         <div id="scoreContainer" style="display: none"></div>
     </div>
+    <script src="quiz.js"></script>
 </body>
- 
 </html>
