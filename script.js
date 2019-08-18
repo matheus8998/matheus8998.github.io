@@ -119,11 +119,11 @@ function checkAnswer(answer){
         // answer is correct
         score++;
         // change progress color to green
-        answerIsCorrect();
+  //      answerIsCorrect();
     }else{
         // answer is wrong
         // change progress color to red
-        answerIsWrong();
+   //     answerIsWrong();
     }
     count = 0;
     if(runningQuestion < lastQuestion){
