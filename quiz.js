@@ -49,7 +49,7 @@ let questions = [
 const lastQuestion = questions.length - 1;
 let runningQuestion = 0;
 let count = 0;
-const questionTime = 100000; // 10s
+const questionTime = 10; // 10s
 const gaugeWidth = 150; // 150px
 const gaugeUnit = gaugeWidth / questionTime;
 let TIMER;
@@ -75,7 +75,7 @@ function startQuiz(){
     quiz.style.display = "block";
     renderProgress();
     renderCounter();
-    TIMER = setInterval(renderCounter,1000000000); // 1000ms = 1s
+    TIMER = setInterval(renderCounter,1000); // 1000ms = 1s
 }
 
 // render progress
@@ -126,7 +126,7 @@ function checkAnswer(answer){
         renderQuestion();
     }else{
         // end the quiz and show the score
-       clearInterval(TIMER);
+        clearInterval(TIMER);
         scoreRender();
     }
 }
@@ -143,7 +143,7 @@ function answerIsWrong(){
 
 // score render
 function scoreRender(){
-    scoreDiv.style.display = "bloc";
+    scoreDiv.style.display = "block";
     
     // calculate the amount of question percent answered by the user
     const scorePerCent = Math.round(100 * score/questions.length);
