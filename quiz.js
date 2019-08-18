@@ -16,7 +16,7 @@ let questions = [
     {
         question : "Quem é estudante da UnB?",
         imgSrc : "img/html.png",
-        choiceA : "Matheus",
+        choiceA : "a vida como ela é né engraçado isso ai",
         choiceB : "João",
         choiceC : "Artur",
         correct : "A"
