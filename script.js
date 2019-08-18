@@ -1,3 +1,4 @@
+
 window.onload = function()  {
 // select all elements
 const start = document.getElementById("start");
@@ -68,6 +69,9 @@ function renderQuestion(){
 }
 
 start.addEventListener("click",startQuiz);
+choiceA.addEventListener("click",checkAnwer('A'));
+choiceB.addEventListener("click",checkAnswer('B'));
+choiceC.addEventListener("click",checkAnswer('C'));
 
 // start quiz
 function startQuiz(){
