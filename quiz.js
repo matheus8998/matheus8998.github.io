@@ -142,7 +142,7 @@ function answerIsWrong(){
 }
 
 // score render
-function scoreRender(){k
+function scoreRender(){
     scoreDiv.style.display = "bloc";
     
     // calculate the amount of question percent answered by the user
