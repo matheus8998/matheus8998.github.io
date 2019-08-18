@@ -101,7 +101,7 @@ function renderCounter(){
             renderQuestion();
         }else{
             // end the quiz and show the score
-         //   clearInterval(TIMER);
+            clearInterval(TIMER);
             scoreRender();
         }
     }
@@ -126,7 +126,7 @@ function checkAnswer(answer){
         renderQuestion();
     }else{
         // end the quiz and show the score
-        clearInterval(TIMER);
+     //   clearInterval(TIMER);
         scoreRender();
     }
 }
