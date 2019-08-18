@@ -74,7 +74,7 @@ function startQuiz(){
     renderQuestion();
     quiz.style.display = "block";
     renderProgress();
-    renderCounter();
+//    renderCounter();
     TIMER = setInterval(renderCounter,1000); // 1000ms = 1s
 }
 
@@ -142,8 +142,8 @@ function answerIsWrong(){
 }
 
 // score render
-function scoreRender(){
-    scoreDiv.style.display = "block";
+function scoreRender(){k
+    scoreDiv.style.display = "bloc";
     
     // calculate the amount of question percent answered by the user
     const scorePerCent = Math.round(100 * score/questions.length);
