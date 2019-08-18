@@ -138,7 +138,7 @@ function checkAnswer(answer){
 
 // answer is correct
 function answerIsCorrect(){
- //   document.getElementById(runningQuestion).style.backgroundColor = "#0f0";
+    document.getElementById(runningQuestion).style.backgroundColor = "#0f0";
 }
 
 // answer is Wrong
