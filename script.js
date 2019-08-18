@@ -138,12 +138,12 @@ function checkAnswer(answer){
 
 // answer is correct
 function answerIsCorrect(){
-    document.getElementById(runningQuestion).style.backgroundColor = "#0f0";
+    document.getElementByClassName(prog).style.backgroundColor = "#0f0";
 }
 
 // answer is Wrong
 function answerIsWrong(){
-    document.getElementById(runningQuestion).style.backgroundColor = "#f00";
+    document.getElementByClassName(prog).style.backgroundColor = "#f00";
 }
 
 // score render
