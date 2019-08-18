@@ -73,6 +73,7 @@ choiceA.addEventListener("click",checkAnswer('A'));
 choiceB.addEventListener("click",checkAnswer('B'));
 choiceC.addEventListener("click",checkAnswer('C'));
 
+
 // start quiz
 function startQuiz(){
     start.style.display = "none";
