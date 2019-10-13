@@ -15,28 +15,28 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "questao 1?",
-        imgSrc : "img/html.png",
+        imgSrc : "img/unbb.png",
         choiceA : "a vida como ela é né engraçado isso ai",
         choiceB : "a",
         choiceC : "b",
         correct : "c"
     },{
         question : "What does CSS stand for?",
-        imgSrc : "img/css.png",
+        imgSrc : "img/unbbb.png",
         choiceA : "Wrong",
         choiceB : "Correct",
         choiceC : "Wrong",
         correct : "B"
     },{
         question : "What does JS stand for?",
-        imgSrc : "img/js.png",
+        imgSrc : "img/unbb.png",
         choiceA : "Wrong",
         choiceB : "Wrong",
         choiceC : "Correct",
         correct : "C"
     },{
         question : "Quem é o criador do minecraft?",
-        imgSrc : "img/js.png",
+        imgSrc : "img/unbbb.png",
         choiceA : "Notch",
         choiceB : "Not Notch",
         choiceC : "Einstin",
