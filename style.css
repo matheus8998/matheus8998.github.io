@@ -59,6 +59,7 @@ body{
 
 #choices{
     width : 480px;
+    height: 300px;
     position: absolute;
     right : 0;
     top : 125px;
