@@ -66,16 +66,16 @@ body{
     padding : 10px
 }
 .choice{
-    display: block;
+    display: table-row;
     width : 135px;
     text-align: center;
-    border : 1px solid grey;
+    border : 0.5px green;
     border-radius: 5px;
     cursor: pointer;
     padding : 5px;
 }
-.choice:hover{
-    border : 2px solid grey;
+.choice:hover{     
+    border : 2px green;
     font-weight: bold;
 }
 
