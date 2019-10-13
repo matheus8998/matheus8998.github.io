@@ -58,7 +58,7 @@ body{
 }
 
 #choices{
-    width : 480px;
+    width : 1000px;
     height: 300px;
     position: absolute;
     right : 0;
@@ -66,7 +66,7 @@ body{
     padding : 10px
 }
 .choice{
-    display: table-row;
+    display: block;
     width : 135px;
     text-align: center;
     border : 0.5px green;
