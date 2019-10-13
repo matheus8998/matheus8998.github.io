@@ -16,8 +16,8 @@ let questions = [
     {
         question : "questao 1?",
         imgSrc : "img/unbb.png",
-        choiceA : "a vida como ela é né engraçado isso ai",
-        choiceB : "a",
+        choiceA : "a",
+        choiceB : "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
         choiceC : "b",
         correct : "c"
     },{
