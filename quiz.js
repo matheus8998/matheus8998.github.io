@@ -14,12 +14,12 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {
-        question : "Quem é estudante da UnB?",
+        question : "questao 1?",
         imgSrc : "img/html.png",
         choiceA : "a vida como ela é né engraçado isso ai",
-        choiceB : "João",
-        choiceC : "Artur",
-        correct : "A"
+        choiceB : "a",
+        choiceC : "b",
+        correct : "c"
     },{
         question : "What does CSS stand for?",
         imgSrc : "img/css.png",
