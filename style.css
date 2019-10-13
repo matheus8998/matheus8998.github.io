@@ -45,7 +45,7 @@ body{
 }
 
 #question{
-    width:1000px;
+    width:900px;
     height : 100px;
     position: absolute;
     right:0;
@@ -58,7 +58,7 @@ body{
 }
 
 #choices{
-    width : 1000px;
+    width : 800px;
     height: 300px;
     position: absolute;
     right : 0;
@@ -69,8 +69,8 @@ body{
     display: block;
     width : 135px;
     text-align: center;
-    border : 0.5px green;
-    border-radius: 5px;
+    border : 1px green;
+    border-radius: 20px;
     cursor: pointer;
     padding : 5px;
 }
