@@ -22,7 +22,7 @@ let questions = [
         correct : "c"
     },{
         question : "What does CSS stand for?",
-        imgSrc : "img/unbbb.jpg",
+        imgSrc : "img/unbb.png",
         choiceA : "Wrong",
         choiceB : "Correct",
         choiceC : "Wrong",
@@ -36,7 +36,7 @@ let questions = [
         correct : "C"
     },{
         question : "Quem é o criador do minecraft?",
-        imgSrc : "img/unbbb.jpg",
+        imgSrc : "img/unbb.png",
         choiceA : "Notch",
         choiceB : "Not Notch",
         choiceC : "Einstin",
