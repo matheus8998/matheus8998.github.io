@@ -17,29 +17,29 @@ let questions = [
         question : "questao 1?",
         imgSrc : "img/unbb.png",
         choiceA : "a",
-        choiceB : "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-        choiceC : "b",
+        choiceB : "b",
+        choiceC : "c",
         correct : "c"
     },{
-        question : "What does CSS stand for?",
+        question : "questao 2?",
         imgSrc : "img/unbb.png",
-        choiceA : "Wrong",
-        choiceB : "Correct",
-        choiceC : "Wrong",
+        choiceA : "errado",
+        choiceB : "certo",
+        choiceC : "errado",
         correct : "B"
     },{
-        question : "What does JS stand for?",
+        question : "questao 3?",
         imgSrc : "img/unbb.png",
-        choiceA : "Wrong",
-        choiceB : "Wrong",
-        choiceC : "Correct",
+        choiceA : "errado",
+        choiceB : "errado",
+        choiceC : "certo",
         correct : "C"
     },{
-        question : "Quem é o criador do minecraft?",
+        question : "questao 4",
         imgSrc : "img/unbb.png",
-        choiceA : "Notch",
-        choiceB : "Not Notch",
-        choiceC : "Einstin",
+        choiceA : "certo",
+        choiceB : "errado",
+        choiceC : "errado",
         correct : "A"
     }
 ];
