@@ -30,3 +30,34 @@ function cifraAleatoria() {
     }
 }
 
+//---------------------------------------------------------------------------------------------
+
+
+function acordeEscolhido() {
+
+
+        var acorde = document.getElementById("nota-acorde").value.toUpperCase();
+        console.log(acorde);
+
+        var notasAcordes = ["A","A#", "B", "C", "C#", "D","D#", "E", "F","F#", "G", "G#",
+                            "A","A#", "B", "C", "C#", "D","D#", "E", "F","F#", "G", "G#"];
+
+        var index = notasAcordes.indexOf(acorde);
+        console.log(notasAcordes[index+1]);
+
+
+        document.getElementById("acorde-completo").innerHTML = '';
+
+
+        document.getElementById("acorde-completo").innerHTML += '<span> '
+                                                                      + notasAcordes[index] 
+                                                                + ' ' + notasAcordes[index+2]
+                                                                + ' ' + notasAcordes[index+4]
+                                                                + ' ' + notasAcordes[index+5]
+                                                                + ' ' + notasAcordes[index+7]
+                                                                + ' ' + notasAcordes[index+9]
+                                                                + ' ' + notasAcordes[index+11]
+                                                                + ' ' + notasAcordes[index+12]
+                                                                +' </span>';
+                                                                 
+}
