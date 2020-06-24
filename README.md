@@ -1,7 +1,10 @@
-# Multiple-Choice-Quiz-JavaScript
-Today we're going to create a multiple choice quiz using JavaScript, in this quiz, the user will have to choose the correct answer out of three choices, in less than 10 seconds, if the user didn't answer the question in 10sec, it will go to the next question automatically, and the question is marked wrong. the user has a progress bar, that shows the total number of question, and also if the user answered a question correctly or not.
+# Exercícios com cordas
 
-Watch The Tutorial On Youtube: 
-https://www.youtube.com/watch?v=49pYIMygIcU
+Esta página, disponível no link http://matheus8998.github.io/, tem o propósito de auxiliar pessoas que estão iniciando os estudos em instrumentos de cordas como baixo e guitarra. 
+
+O primeiro exercício é muito útil para aqueles que querem decorar as notas pelo braço do instrumento. Ele gera uma sequência aleatória de notas, podendo ser de naturais ou naturais com acidentes, e qual corda deve ser tocada.
+
+Outra funcionalidade é a de mostrar quais notas compõem uma dada escala. Ex: caso queira saber a escala de dó pasta eu digitar c e clicar em IR
+
 
 
